@@ -1,0 +1,7 @@
+hola 2
+git init
+
+git status -s
+
+?? "prueba 1.txt"
+?? "prueba 2.txt"
