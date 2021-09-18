@@ -5,3 +5,17 @@ git status -s
 
 ?? "prueba 1.txt"
 ?? "prueba 2.txt"
+
+git add prueba2(nombre de archivo)
+empieza a monitorear prueba2
+
+git commit -m "Comienzo del proyecto"
+[master (root-commit) b072481] Comienzo del proyecto
+ 1 file changed, 7 insertions(+)
+ create mode 100644 prueba2.txt
+
+$ git status -s
+ M prueba2.txt(la M que muestra es por que hizo cambio no respaldado por Git)
+?? prueba1.txt
+
+
