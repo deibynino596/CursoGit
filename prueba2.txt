@@ -29,7 +29,20 @@ legna@LAPTOP-DL9MDV7G MINGW64 ~/Documents/GitHub/Prueba (master)
 $ git status -s
 M  prueba2.txt (la M verde que muestra es por que ya hizo summit a prueba 2)
 
-git commit --amend(consola para editar nombres de fotos de archivos)
+git commit --amend(consola para editar nombres de las fotos de archivos)
+
+git commit --amend(:i para poder borrar el nombre, luego scape, despues se anota el nuevo nombre y enter)
+(:wq para salir con los cambios guardados, nuevo nombre...)
+[master 97f6907] cambios 19 sep 2021
+ Date: Sun Sep 19 18:24:21 2021 -0500
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+
+git log --oneline(cantidad de fotos con su nombre)
+97f6907 (HEAD -> master) cambios 19 sep 2021
+fcee1ae agregados dos archivos pruebas
+cea3de2 agregado instrucciones GIT
+b072481 Comienzo del proyecto
+
 
 
 
