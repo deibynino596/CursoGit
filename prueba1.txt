@@ -1,0 +1,32 @@
+hola mundo
+
+git init
+
+git status -s
+
+?? "prueba 1.txt"
+?? "prueba 2.txt"
+
+git add prueba2(nombre de archivo)
+empieza a monitorear prueba2
+
+#primera copia
+git commit -m "Comienzo del proyecto"
+[master (root-commit) b072481] Comienzo del proyecto
+ 1 file changed, 7 insertions(+)
+ create mode 100644 prueba2.txt
+
+#segunda copia...
+$ git commit -m "agregado instrucciones GIT"
+[master cea3de2] agregado instrucciones GIT
+ 1 file changed, 14 insertions(+)
+
+#me dice las copias que tengo
+git log --oneline
+cea3de2 (HEAD -> master) agregado instrucciones GIT
+b072481 Comienzo del proyecto
+
+#me regresa a la copia que quiero.
+ git reset --hard b072481
+HEAD is now at b072481 Comienzo del proyecto
+
