@@ -15,7 +15,22 @@ git commit -m "Comienzo del proyecto"
  create mode 100644 prueba2.txt
 
 $ git status -s
- M prueba2.txt(la M que muestra es por que hizo cambio no respaldado por Git)
+ M prueba2.txt(la M roja que muestra es por que hizo cambio no respaldado por Git)
 ?? prueba1.txt
+
+git commit -am "agregados dos archivos pruebas"(agrega hace un commit al mismo tiempo)
+[master fcee1ae] agregados dos archivos pruebas
+ 1 file changed, 32 insertions(+)
+ create mode 100644 prueba1.txt
+
+git add .(agrega todos los archivos?)
+
+legna@LAPTOP-DL9MDV7G MINGW64 ~/Documents/GitHub/Prueba (master)
+$ git status -s
+M  prueba2.txt (la M verde que muestra es por que ya hizo summit a prueba 2)
+
+git commit --amend(consola para editar nombres de fotos de archivos)
+
+
 
 
