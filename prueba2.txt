@@ -43,7 +43,7 @@ fcee1ae agregados dos archivos pruebas
 cea3de2 agregado instrucciones GIT
 b072481 Comienzo del proyecto
 
-agregar parrafo desde github con git pull
+agregar parrafo desde github con git pull!
 
 
 
